@@ -1,6 +1,6 @@
 # Shunt Library
 
-This library is a a c++ implementation of the shunt algorithm. It is a library for parsing mathematical expressions and evaluating them. It is designed to be used in a game engine, but can be used in any c++ project.
+This library is a a c++ implementation of the shunt algorithm. It is a library for parsing mathematical expressions and evaluating them. It is designed to be used with Arduino, but can be used in any c++ project by removing the logging statements.
 
 ## Usage
 
@@ -17,8 +17,6 @@ int main() {
     return 0;
 }
 ```
-
-This library is perfectly compatible with Arduino. You can use it in your Arduino project.
 
 ## Supported operators
 
